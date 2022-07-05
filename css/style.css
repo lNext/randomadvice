@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;700&display=swap');
+
+:root{
+    --text: #fff;
+    --button_text: #000;
+    --background: #090446;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text)
+}
+
+body{
+    /* background: var(--background); */
+    background: url('https://media0.giphy.com/media/xT8qBhrlNooHBYR9f2/giphy.gif?cid=ecf05e4771tqvukif8sv8ppdd7kocvo2hrbvsclzpuu8bi4r&rid=giphy.gif&ct=g');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container-f{
+    width: 100%;
+}
+
+.container{
+    height: 150px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+
+.container{
+    text-align: center;
+}
+
+.container button{
+    width: 120px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+    color: var(--button_text)
+}
+
+.container button:hover{
+    cursor: pointer;
+}
